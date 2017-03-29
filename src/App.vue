@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png"><br/>
+    <div>路由列表：</div>
+    <router-link to="/">主页</router-link><br/>
+    <router-link to="/navi">navi</router-link><br/>
+    <router-link to="/footer">footer</router-link><br/>
+    <router-link to="/logo">logo</router-link><br/>
+    <router-link to="/navi_logo">嵌套路由：navi_logo,navi中包含logo</router-link><br/>
     <router-view></router-view>
   </div>
 </template>
