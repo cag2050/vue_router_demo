@@ -1,5 +1,10 @@
 # vue_router_demo
 
+说明：  
+components文件夹中添加组件vue;  
+router/index.js中导入组件、添加路由;  
+App.vue添加router-link。  
+
 > A Vue.js project
 
 ## Build Setup
