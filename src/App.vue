@@ -6,7 +6,7 @@
     <router-link to="/navi">navi</router-link><br/>
     <router-link to="/footer">footer</router-link><br/>
     <router-link to="/logo">logo</router-link><br/>
-    <router-link to="/navi_logo">嵌套路由：navi_logo,navi中包含logo</router-link><br/>
+    <router-link to="/navi_logo">嵌套路由：Navi组件中包含Logo组件</router-link><br/>
     <router-view></router-view>
   </div>
 </template>
