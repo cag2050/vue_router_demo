@@ -1,5 +1,9 @@
 <template>
-    <div>navi内容<router-view></router-view></div>
+    <div class='navi'>navi内容
+        <div class='logo'>
+            <router-view></router-view>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -13,4 +17,11 @@ export default {
 </script>
 
 <style>
+.navi {
+    background-color: gray
+}
+.logo {
+    width: 300px;
+    background-color: red
+}
 </style>
