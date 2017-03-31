@@ -1,8 +1,35 @@
 # vue_router_demo  
 
-组件有一个子组件，用嵌套路由children，children中定义component（只有一个），一个router-view；  
-组件有多个子组件，在children中定义components（多个），用多个router-view引用。  
+第一种情况：组件有一个子组件，用嵌套路由children，children中定义component（只有一个），一个router-view；  
+第二种情况：组件有多个子组件，在children中定义components（多个），用多个router-view引用。  
 
+第一种情况代码：  
+```
+   {
+      path: '/header_footer',
+      components: {
+        default: Header_Footer,
+        footer: Footer
+      }
+    }
+```
+第二种情况代码：
+```
+    {
+      path: '/navi_logo',
+      name: 'navi_logo',
+      component: Navi,
+      children: [
+        {
+            path: '',
+            components: {
+              default: Logo,
+              footer: Footer
+            }
+        }
+      ]
+    }
+```
 说明：  
 components文件夹中添加组件vue;  
 router/index.js中导入组件、添加路由;  
