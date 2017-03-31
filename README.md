@@ -1,4 +1,7 @@
-# vue_router_demo
+# vue_router_demo  
+
+组件有一个子组件，用嵌套路由children，children中定义component（只有一个），一个router-view；  
+组件有多个子组件，在children中定义components（多个），用多个router-view引用。  
 
 说明：  
 components文件夹中添加组件vue;  
