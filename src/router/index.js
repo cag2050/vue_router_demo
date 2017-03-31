@@ -38,7 +38,10 @@ export default new Router({
       children: [
         {
             path: '',
-            component: Logo
+            components: {
+              default: Logo,
+              footer: Footer
+            }
         }
       ]
     },

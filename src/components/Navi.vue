@@ -2,6 +2,7 @@
     <div class='navi'>navi内容
         <div class='logo'>
             <router-view></router-view>
+            <router-view name='footer'></router-view>
         </div>
     </div>
 </template>
