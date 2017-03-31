@@ -6,8 +6,10 @@
     <router-link to="/navi">navi</router-link><br/>
     <router-link to="/footer">footer</router-link><br/>
     <router-link to="/logo">logo</router-link><br/>
-    <router-link to="/navi_logo">嵌套路由：Navi组件中包含Logo组件</router-link><br/>
+    <router-link to="/navi_logo">嵌套路由：Navi组件中包含Logo组件，只有一个router-view</router-link><br/>
+    <router-link to="/header_footer">命名视图：header加footer，有多个router-view</router-link><br/>
     <router-view></router-view>
+    <router-view name='footer'></router-view>
   </div>
 </template>
 
