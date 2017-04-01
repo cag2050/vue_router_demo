@@ -40,7 +40,14 @@ export default new Router({
             path: '',
             components: {
               default: Logo,
-              footer: Footer
+              content: Footer
+            }
+        },
+        {
+            path: '2',
+            components: {
+              default: Logo,
+              content: Logo
             }
         }
       ]

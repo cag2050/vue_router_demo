@@ -7,6 +7,7 @@
     <router-link to="/footer">footer</router-link><br/>
     <router-link to="/logo">logo</router-link><br/>
     <router-link to="/navi_logo">嵌套路由children：Navi组件中包含Logo组件和Footer组件，Navi组件有2个router-view</router-link><br/>
+    <router-link to="/navi_logo/2">嵌套路由children,第2个路径：Navi组件中包含Logo组件和Logo组件，Navi组件有2个router-view</router-link><br/>
     <router-link to="/header_footer">命名视图components：header加footer，App.vue有2个router-view</router-link><br/>
     <router-view></router-view>
     <router-view name='footer'></router-view>
